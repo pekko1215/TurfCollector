@@ -2,7 +2,7 @@
   "name": "turfcollector",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "TurfCollector.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -15,5 +15,8 @@
   "bugs": {
     "url": "https://github.com/pekko1215/TurfCollector/issues"
   },
-  "homepage": "https://github.com/pekko1215/TurfCollector#readme"
+  "homepage": "https://github.com/pekko1215/TurfCollector#readme",
+  "dependencies": {
+    "x-ray": "^2.3.2"
+  }
 }

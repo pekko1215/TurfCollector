@@ -5,7 +5,8 @@ module.exports = {
         xRay("https://github.com/users/"+username+"/contributions","rect",[
             {
                 "level":"@data-count",
-                "date":"@data-date"
+                "date":"@data-date",
+                "color":"@fill"
             }
         ])(callback)
     }
